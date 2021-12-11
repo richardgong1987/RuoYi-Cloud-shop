@@ -7,7 +7,7 @@ import com.ruoyi.common.core.utils.DateUtils;
 #break
 #end
 #end
-import org.springframework.beans.factory.annotation.Autowired;
+import javax.annotation.Resource;
 import org.springframework.stereotype.Service;
 #if($table.sub)
 import java.util.ArrayList;
@@ -28,7 +28,7 @@ import ${packageName}.service.I${ClassName}Service;
 @Service
 public class ${ClassName}ServiceImpl implements I${ClassName}Service 
 {
-    @Autowired
+    @Resource
     private ${ClassName}Mapper ${className}Mapper;
 
     /**
