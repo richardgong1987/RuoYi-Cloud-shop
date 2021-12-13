@@ -1,0 +1,211 @@
+[
+  {
+    "id": 1,
+    "parent_id": 0,
+    "create_time": "2020-02-02 14:50:36",
+    "title": "商品",
+    "level": 0,
+    "sort": 0,
+    "name": "pms",
+    "icon": "product",
+    "hidden": 0
+  },
+  {
+    "id": 2,
+    "parent_id": 1,
+    "create_time": "2020-02-02 14:51:50",
+    "title": "商品列表",
+    "level": 1,
+    "sort": 0,
+    "name": "product",
+    "icon": "product-list",
+    "hidden": 0
+  },
+  {
+    "id": 3,
+    "parent_id": 1,
+    "create_time": "2020-02-02 14:52:44",
+    "title": "添加商品",
+    "level": 1,
+    "sort": 0,
+    "name": "addProduct",
+    "icon": "product-add",
+    "hidden": 0
+  },
+  {
+    "id": 4,
+    "parent_id": 1,
+    "create_time": "2020-02-02 14:53:51",
+    "title": "商品分类",
+    "level": 1,
+    "sort": 0,
+    "name": "productCate",
+    "icon": "product-cate",
+    "hidden": 0
+  },
+  {
+    "id": 5,
+    "parent_id": 1,
+    "create_time": "2020-02-02 14:54:51",
+    "title": "商品类型",
+    "level": 1,
+    "sort": 0,
+    "name": "productAttr",
+    "icon": "product-attr",
+    "hidden": 0
+  },
+  {
+    "id": 6,
+    "parent_id": 1,
+    "create_time": "2020-02-02 14:56:29",
+    "title": "品牌管理",
+    "level": 1,
+    "sort": 0,
+    "name": "brand",
+    "icon": "product-brand",
+    "hidden": 0
+  },
+  {
+    "id": 7,
+    "parent_id": 0,
+    "create_time": "2020-02-02 16:54:07",
+    "title": "订单",
+    "level": 0,
+    "sort": 0,
+    "name": "oms",
+    "icon": "order",
+    "hidden": 0
+  },
+  {
+    "id": 8,
+    "parent_id": 7,
+    "create_time": "2020-02-02 16:55:18",
+    "title": "订单列表",
+    "level": 1,
+    "sort": 0,
+    "name": "order",
+    "icon": "product-list",
+    "hidden": 0
+  },
+  {
+    "id": 9,
+    "parent_id": 7,
+    "create_time": "2020-02-02 16:56:46",
+    "title": "订单设置",
+    "level": 1,
+    "sort": 0,
+    "name": "orderSetting",
+    "icon": "order-setting",
+    "hidden": 0
+  },
+  {
+    "id": 10,
+    "parent_id": 7,
+    "create_time": "2020-02-02 16:57:39",
+    "title": "退货申请处理",
+    "level": 1,
+    "sort": 0,
+    "name": "returnApply",
+    "icon": "order-return",
+    "hidden": 0
+  },
+  {
+    "id": 11,
+    "parent_id": 7,
+    "create_time": "2020-02-02 16:59:40",
+    "title": "退货原因设置",
+    "level": 1,
+    "sort": 0,
+    "name": "returnReason",
+    "icon": "order-return-reason",
+    "hidden": 0
+  },
+  {
+    "id": 12,
+    "parent_id": 0,
+    "create_time": "2020-02-04 16:18:00",
+    "title": "营销",
+    "level": 0,
+    "sort": 0,
+    "name": "sms",
+    "icon": "sms",
+    "hidden": 0
+  },
+  {
+    "id": 13,
+    "parent_id": 12,
+    "create_time": "2020-02-04 16:19:22",
+    "title": "秒杀活动列表",
+    "level": 1,
+    "sort": 0,
+    "name": "flash",
+    "icon": "sms-flash",
+    "hidden": 0
+  },
+  {
+    "id": 14,
+    "parent_id": 12,
+    "create_time": "2020-02-04 16:20:16",
+    "title": "优惠券列表",
+    "level": 1,
+    "sort": 0,
+    "name": "coupon",
+    "icon": "sms-coupon",
+    "hidden": 0
+  },
+  {
+    "id": 16,
+    "parent_id": 12,
+    "create_time": "2020-02-07 16:22:38",
+    "title": "品牌推荐",
+    "level": 1,
+    "sort": 0,
+    "name": "homeBrand",
+    "icon": "product-brand",
+    "hidden": 0
+  },
+  {
+    "id": 17,
+    "parent_id": 12,
+    "create_time": "2020-02-07 16:23:14",
+    "title": "新品推荐",
+    "level": 1,
+    "sort": 0,
+    "name": "homeNew",
+    "icon": "sms-new",
+    "hidden": 0
+  },
+  {
+    "id": 18,
+    "parent_id": 12,
+    "create_time": "2020-02-07 16:26:38",
+    "title": "人气推荐",
+    "level": 1,
+    "sort": 0,
+    "name": "homeHot",
+    "icon": "sms-hot",
+    "hidden": 0
+  },
+  {
+    "id": 19,
+    "parent_id": 12,
+    "create_time": "2020-02-07 16:28:16",
+    "title": "专题推荐",
+    "level": 1,
+    "sort": 0,
+    "name": "homeSubject",
+    "icon": "sms-subject",
+    "hidden": 0
+  },
+  {
+    "id": 20,
+    "parent_id": 12,
+    "create_time": "2020-02-07 16:28:42",
+    "title": "广告列表",
+    "level": 1,
+    "sort": 0,
+    "name": "homeAdvertise",
+    "icon": "sms-ad",
+    "hidden": 0
+  }
+]

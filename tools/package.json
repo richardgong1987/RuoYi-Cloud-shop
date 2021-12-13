@@ -1,0 +1,17 @@
+{
+  "name": "sql-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "description": "",
+  "dependencies": {
+    "bing-translate-api": "^2.0.0",
+    "fs-extra": "^9.1.0",
+    "toml": "^3.0.0"
+  }
+}
