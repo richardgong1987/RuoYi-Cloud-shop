@@ -44,3 +44,4 @@ nbdist/
 node_modules
 yarn.lock
 tmp.json
+p.sh
