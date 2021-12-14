@@ -21,6 +21,7 @@
         <mall-common.version>3.3.0</mall-common.version>
         <spring-data-commons.version>2.3.0.RELEASE</spring-data-commons.version>
         <mall-mbg.version>3.3.0</mall-mbg.version>
+        <aliyun-oss.version>2.5.0</aliyun-oss.version>
     </properties>
     <description>
         ruoyi-mall Business Modules
@@ -67,7 +68,12 @@
                 <artifactId>minio</artifactId>
                 <version>${minio.version}</version>
             </dependency>
-
+            <!-- 阿里云OSS -->
+            <dependency>
+                <groupId>com.aliyun.oss</groupId>
+                <artifactId>aliyun-sdk-oss</artifactId>
+                <version>${aliyun-oss.version}</version>
+            </dependency>
 
         </dependencies>
 
