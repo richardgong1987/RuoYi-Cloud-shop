@@ -41,6 +41,7 @@
         <commons-collections.version>3.2.2</commons-collections.version>
         <transmittable-thread-local.version>2.12.2</transmittable-thread-local.version>
         <lombok.version>1.18.22</lombok.version>
+        <hutool.version>5.4.0</hutool.version>
     </properties>
 
     <!-- 依赖声明 -->
@@ -253,6 +254,12 @@
                 <version>${lombok.version}</version>
                 <scope>provided</scope>
             </dependency>
+            <!--Hutool Java工具包-->
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -261,6 +268,7 @@
         <module>ruoyi-gateway</module>
         <module>ruoyi-visual</module>
         <module>ruoyi-modules</module>
+        <module>ruoyi-malls</module>
         <module>ruoyi-api</module>
         <module>ruoyi-common</module>
     </modules>
@@ -277,6 +285,16 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+        </dependency>
+        <!-- pagehelper 分页插件 -->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>

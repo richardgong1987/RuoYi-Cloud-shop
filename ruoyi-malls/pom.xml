@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.ruoyi</groupId>
+        <artifactId>ruoyi</artifactId>
+        <version>3.3.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>ruoyi-malls</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>mall-admin</module>
+        <module>mall-mbg</module>
+        <module>mall-common</module>
+    </modules>
+    <properties>
+        <hutool.version>5.4.0</hutool.version>
+        <logstash-logback.version>5.3</logstash-logback.version>
+        <mall-common.version>3.3.0</mall-common.version>
+        <spring-data-commons.version>2.3.0.RELEASE</spring-data-commons.version>
+        <mall-mbg.version>3.3.0</mall-mbg.version>
+    </properties>
+    <description>
+        ruoyi-mall Business Modules
+    </description>
+    <dependencyManagement>
+        <dependencies>
+            <!--mall通用模块-->
+            <dependency>
+                <groupId>com.ruoyi</groupId>
+                <artifactId>mall-common</artifactId>
+                <version>${mall-common.version}</version>
+            </dependency>
+            <!--mall中MBG生成模块-->
+            <dependency>
+                <groupId>com.ruoyi</groupId>
+                <artifactId>mall-mbg</artifactId>
+                <version>${mall-mbg.version}</version>
+            </dependency>
+
+            <!--Hutool Java工具包-->
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
+            </dependency>
+
+            <!--SpringData工具包-->
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-commons</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+
+
+            <!--集成logstash-->
+            <dependency>
+                <groupId>net.logstash.logback</groupId>
+                <artifactId>logstash-logback-encoder</artifactId>
+                <version>${logstash-logback.version}</version>
+            </dependency>
+            <!--MinIO JAVA SDK-->
+            <dependency>
+                <groupId>io.minio</groupId>
+                <artifactId>minio</artifactId>
+                <version>${minio.version}</version>
+            </dependency>
+
+
+        </dependencies>
+
+    </dependencyManagement>
+    <dependencies>
+
+    </dependencies>
+</project>
