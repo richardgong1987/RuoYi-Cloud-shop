@@ -66,6 +66,7 @@ com.ruoyi
 ## 商城功能:
 
 ![](./tools/assets/2021-12-13-22-55-29-image.png)
+![](./tools/assets/img_1.png)
 
 ## 基础功能:
 
