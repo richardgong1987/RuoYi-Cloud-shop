@@ -189,14 +189,14 @@
       if (this.isEdit) {
         // this.handleEditCreated();
       } else {
-        fetchMemberLevelList({defaultStatus: 0}).then(response => {
-          let memberPriceList = [];
-          for (let i = 0; i < response.data.length; i++) {
-            let item = response.data[i];
-            memberPriceList.push({memberLevelId: item.id, memberLevelName: item.name})
-          }
-          this.value.memberPriceList = memberPriceList;
-        });
+        // fetchMemberLevelList({defaultStatus: 0}).then(response => {
+        //   let memberPriceList = [];
+        //   for (let i = 0; i < response.data.length; i++) {
+        //     let item = response.data[i];
+        //     memberPriceList.push({memberLevelId: item.id, memberLevelName: item.name})
+        //   }
+        //   this.value.memberPriceList = memberPriceList;
+        // });
       }
     },
     computed: {

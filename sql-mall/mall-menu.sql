@@ -169,73 +169,73 @@ insert into sys_menu values('2078', '导入', '2073', '5',  '', '','', 1, 0, 'F'
     
 insert into sys_menu values('2079', '导出', '2073', '6',  '', '','', 1, 0, 'F', '0', '0', 'sms:coupon:export', '#', 'admin', sysdate(), '', null, '优惠券列表-导出-按钮');
     
-insert into sys_menu values('2080',  '品牌推荐', '2065',   '3', 'homeBrand',       'sms/homeBrand/index', '', 1, 0, 'C', '0', '0', 'sms:homeBrand:list', 'product-brand','admin', sysdate(), '', null, '品牌推荐-菜单');
+insert into sys_menu values('2080',  '品牌推荐', '2065',   '3', 'brand',       'sms/brand/index', '', 1, 0, 'C', '0', '0', 'sms:brand:list', 'product-brand','admin', sysdate(), '', null, '品牌推荐-菜单');
     
-insert into sys_menu values('2081', '查询', '2080', '1',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeBrand:query', '#', 'admin', sysdate(), '', null, '品牌推荐-查询-按钮');
+insert into sys_menu values('2081', '查询', '2080', '1',  '', '','', 1, 0, 'F', '0', '0', 'sms:brand:query', '#', 'admin', sysdate(), '', null, '品牌推荐-查询-按钮');
     
-insert into sys_menu values('2082', '添加', '2080', '2',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeBrand:add', '#', 'admin', sysdate(), '', null, '品牌推荐-添加-按钮');
+insert into sys_menu values('2082', '添加', '2080', '2',  '', '','', 1, 0, 'F', '0', '0', 'sms:brand:add', '#', 'admin', sysdate(), '', null, '品牌推荐-添加-按钮');
     
-insert into sys_menu values('2083', '编辑', '2080', '3',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeBrand:edit', '#', 'admin', sysdate(), '', null, '品牌推荐-编辑-按钮');
+insert into sys_menu values('2083', '编辑', '2080', '3',  '', '','', 1, 0, 'F', '0', '0', 'sms:brand:edit', '#', 'admin', sysdate(), '', null, '品牌推荐-编辑-按钮');
     
-insert into sys_menu values('2084', '删除', '2080', '4',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeBrand:remove', '#', 'admin', sysdate(), '', null, '品牌推荐-删除-按钮');
+insert into sys_menu values('2084', '删除', '2080', '4',  '', '','', 1, 0, 'F', '0', '0', 'sms:brand:remove', '#', 'admin', sysdate(), '', null, '品牌推荐-删除-按钮');
     
-insert into sys_menu values('2085', '导入', '2080', '5',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeBrand:import', '#', 'admin', sysdate(), '', null, '品牌推荐-导入-按钮');
+insert into sys_menu values('2085', '导入', '2080', '5',  '', '','', 1, 0, 'F', '0', '0', 'sms:brand:import', '#', 'admin', sysdate(), '', null, '品牌推荐-导入-按钮');
     
-insert into sys_menu values('2086', '导出', '2080', '6',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeBrand:export', '#', 'admin', sysdate(), '', null, '品牌推荐-导出-按钮');
+insert into sys_menu values('2086', '导出', '2080', '6',  '', '','', 1, 0, 'F', '0', '0', 'sms:brand:export', '#', 'admin', sysdate(), '', null, '品牌推荐-导出-按钮');
     
-insert into sys_menu values('2087',  '新品推荐', '2065',   '4', 'homeNew',       'sms/homeNew/index', '', 1, 0, 'C', '0', '0', 'sms:homeNew:list', 'sms-new','admin', sysdate(), '', null, '新品推荐-菜单');
+insert into sys_menu values('2087',  '新品推荐', '2065',   '4', 'new',       'sms/new/index', '', 1, 0, 'C', '0', '0', 'sms:new:list', 'sms-new','admin', sysdate(), '', null, '新品推荐-菜单');
     
-insert into sys_menu values('2088', '查询', '2087', '1',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeNew:query', '#', 'admin', sysdate(), '', null, '新品推荐-查询-按钮');
+insert into sys_menu values('2088', '查询', '2087', '1',  '', '','', 1, 0, 'F', '0', '0', 'sms:new:query', '#', 'admin', sysdate(), '', null, '新品推荐-查询-按钮');
     
-insert into sys_menu values('2089', '添加', '2087', '2',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeNew:add', '#', 'admin', sysdate(), '', null, '新品推荐-添加-按钮');
+insert into sys_menu values('2089', '添加', '2087', '2',  '', '','', 1, 0, 'F', '0', '0', 'sms:new:add', '#', 'admin', sysdate(), '', null, '新品推荐-添加-按钮');
     
-insert into sys_menu values('2090', '编辑', '2087', '3',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeNew:edit', '#', 'admin', sysdate(), '', null, '新品推荐-编辑-按钮');
+insert into sys_menu values('2090', '编辑', '2087', '3',  '', '','', 1, 0, 'F', '0', '0', 'sms:new:edit', '#', 'admin', sysdate(), '', null, '新品推荐-编辑-按钮');
     
-insert into sys_menu values('2091', '删除', '2087', '4',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeNew:remove', '#', 'admin', sysdate(), '', null, '新品推荐-删除-按钮');
+insert into sys_menu values('2091', '删除', '2087', '4',  '', '','', 1, 0, 'F', '0', '0', 'sms:new:remove', '#', 'admin', sysdate(), '', null, '新品推荐-删除-按钮');
     
-insert into sys_menu values('2092', '导入', '2087', '5',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeNew:import', '#', 'admin', sysdate(), '', null, '新品推荐-导入-按钮');
+insert into sys_menu values('2092', '导入', '2087', '5',  '', '','', 1, 0, 'F', '0', '0', 'sms:new:import', '#', 'admin', sysdate(), '', null, '新品推荐-导入-按钮');
     
-insert into sys_menu values('2093', '导出', '2087', '6',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeNew:export', '#', 'admin', sysdate(), '', null, '新品推荐-导出-按钮');
+insert into sys_menu values('2093', '导出', '2087', '6',  '', '','', 1, 0, 'F', '0', '0', 'sms:new:export', '#', 'admin', sysdate(), '', null, '新品推荐-导出-按钮');
     
-insert into sys_menu values('2094',  '人气推荐', '2065',   '5', 'homeHot',       'sms/homeHot/index', '', 1, 0, 'C', '0', '0', 'sms:homeHot:list', 'sms-hot','admin', sysdate(), '', null, '人气推荐-菜单');
+insert into sys_menu values('2094',  '人气推荐', '2065',   '5', 'hot',       'sms/hot/index', '', 1, 0, 'C', '0', '0', 'sms:hot:list', 'sms-hot','admin', sysdate(), '', null, '人气推荐-菜单');
     
-insert into sys_menu values('2095', '查询', '2094', '1',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeHot:query', '#', 'admin', sysdate(), '', null, '人气推荐-查询-按钮');
+insert into sys_menu values('2095', '查询', '2094', '1',  '', '','', 1, 0, 'F', '0', '0', 'sms:hot:query', '#', 'admin', sysdate(), '', null, '人气推荐-查询-按钮');
     
-insert into sys_menu values('2096', '添加', '2094', '2',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeHot:add', '#', 'admin', sysdate(), '', null, '人气推荐-添加-按钮');
+insert into sys_menu values('2096', '添加', '2094', '2',  '', '','', 1, 0, 'F', '0', '0', 'sms:hot:add', '#', 'admin', sysdate(), '', null, '人气推荐-添加-按钮');
     
-insert into sys_menu values('2097', '编辑', '2094', '3',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeHot:edit', '#', 'admin', sysdate(), '', null, '人气推荐-编辑-按钮');
+insert into sys_menu values('2097', '编辑', '2094', '3',  '', '','', 1, 0, 'F', '0', '0', 'sms:hot:edit', '#', 'admin', sysdate(), '', null, '人气推荐-编辑-按钮');
     
-insert into sys_menu values('2098', '删除', '2094', '4',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeHot:remove', '#', 'admin', sysdate(), '', null, '人气推荐-删除-按钮');
+insert into sys_menu values('2098', '删除', '2094', '4',  '', '','', 1, 0, 'F', '0', '0', 'sms:hot:remove', '#', 'admin', sysdate(), '', null, '人气推荐-删除-按钮');
     
-insert into sys_menu values('2099', '导入', '2094', '5',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeHot:import', '#', 'admin', sysdate(), '', null, '人气推荐-导入-按钮');
+insert into sys_menu values('2099', '导入', '2094', '5',  '', '','', 1, 0, 'F', '0', '0', 'sms:hot:import', '#', 'admin', sysdate(), '', null, '人气推荐-导入-按钮');
     
-insert into sys_menu values('2100', '导出', '2094', '6',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeHot:export', '#', 'admin', sysdate(), '', null, '人气推荐-导出-按钮');
+insert into sys_menu values('2100', '导出', '2094', '6',  '', '','', 1, 0, 'F', '0', '0', 'sms:hot:export', '#', 'admin', sysdate(), '', null, '人气推荐-导出-按钮');
     
-insert into sys_menu values('2101',  '专题推荐', '2065',   '6', 'homeSubject',       'sms/homeSubject/index', '', 1, 0, 'C', '0', '0', 'sms:homeSubject:list', 'sms-subject','admin', sysdate(), '', null, '专题推荐-菜单');
+insert into sys_menu values('2101',  '专题推荐', '2065',   '6', 'subject',       'sms/subject/index', '', 1, 0, 'C', '0', '0', 'sms:subject:list', 'sms-subject','admin', sysdate(), '', null, '专题推荐-菜单');
     
-insert into sys_menu values('2102', '查询', '2101', '1',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeSubject:query', '#', 'admin', sysdate(), '', null, '专题推荐-查询-按钮');
+insert into sys_menu values('2102', '查询', '2101', '1',  '', '','', 1, 0, 'F', '0', '0', 'sms:subject:query', '#', 'admin', sysdate(), '', null, '专题推荐-查询-按钮');
     
-insert into sys_menu values('2103', '添加', '2101', '2',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeSubject:add', '#', 'admin', sysdate(), '', null, '专题推荐-添加-按钮');
+insert into sys_menu values('2103', '添加', '2101', '2',  '', '','', 1, 0, 'F', '0', '0', 'sms:subject:add', '#', 'admin', sysdate(), '', null, '专题推荐-添加-按钮');
     
-insert into sys_menu values('2104', '编辑', '2101', '3',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeSubject:edit', '#', 'admin', sysdate(), '', null, '专题推荐-编辑-按钮');
+insert into sys_menu values('2104', '编辑', '2101', '3',  '', '','', 1, 0, 'F', '0', '0', 'sms:subject:edit', '#', 'admin', sysdate(), '', null, '专题推荐-编辑-按钮');
     
-insert into sys_menu values('2105', '删除', '2101', '4',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeSubject:remove', '#', 'admin', sysdate(), '', null, '专题推荐-删除-按钮');
+insert into sys_menu values('2105', '删除', '2101', '4',  '', '','', 1, 0, 'F', '0', '0', 'sms:subject:remove', '#', 'admin', sysdate(), '', null, '专题推荐-删除-按钮');
     
-insert into sys_menu values('2106', '导入', '2101', '5',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeSubject:import', '#', 'admin', sysdate(), '', null, '专题推荐-导入-按钮');
+insert into sys_menu values('2106', '导入', '2101', '5',  '', '','', 1, 0, 'F', '0', '0', 'sms:subject:import', '#', 'admin', sysdate(), '', null, '专题推荐-导入-按钮');
     
-insert into sys_menu values('2107', '导出', '2101', '6',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeSubject:export', '#', 'admin', sysdate(), '', null, '专题推荐-导出-按钮');
+insert into sys_menu values('2107', '导出', '2101', '6',  '', '','', 1, 0, 'F', '0', '0', 'sms:subject:export', '#', 'admin', sysdate(), '', null, '专题推荐-导出-按钮');
     
-insert into sys_menu values('2108',  '广告列表', '2065',   '7', 'homeAdvertise',       'sms/homeAdvertise/index', '', 1, 0, 'C', '0', '0', 'sms:homeAdvertise:list', 'sms-ad','admin', sysdate(), '', null, '广告列表-菜单');
+insert into sys_menu values('2108',  '广告列表', '2065',   '7', 'advertise',       'sms/advertise/index', '', 1, 0, 'C', '0', '0', 'sms:advertise:list', 'sms-ad','admin', sysdate(), '', null, '广告列表-菜单');
     
-insert into sys_menu values('2109', '查询', '2108', '1',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeAdvertise:query', '#', 'admin', sysdate(), '', null, '广告列表-查询-按钮');
+insert into sys_menu values('2109', '查询', '2108', '1',  '', '','', 1, 0, 'F', '0', '0', 'sms:advertise:query', '#', 'admin', sysdate(), '', null, '广告列表-查询-按钮');
     
-insert into sys_menu values('2110', '添加', '2108', '2',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeAdvertise:add', '#', 'admin', sysdate(), '', null, '广告列表-添加-按钮');
+insert into sys_menu values('2110', '添加', '2108', '2',  '', '','', 1, 0, 'F', '0', '0', 'sms:advertise:add', '#', 'admin', sysdate(), '', null, '广告列表-添加-按钮');
     
-insert into sys_menu values('2111', '编辑', '2108', '3',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeAdvertise:edit', '#', 'admin', sysdate(), '', null, '广告列表-编辑-按钮');
+insert into sys_menu values('2111', '编辑', '2108', '3',  '', '','', 1, 0, 'F', '0', '0', 'sms:advertise:edit', '#', 'admin', sysdate(), '', null, '广告列表-编辑-按钮');
     
-insert into sys_menu values('2112', '删除', '2108', '4',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeAdvertise:remove', '#', 'admin', sysdate(), '', null, '广告列表-删除-按钮');
+insert into sys_menu values('2112', '删除', '2108', '4',  '', '','', 1, 0, 'F', '0', '0', 'sms:advertise:remove', '#', 'admin', sysdate(), '', null, '广告列表-删除-按钮');
     
-insert into sys_menu values('2113', '导入', '2108', '5',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeAdvertise:import', '#', 'admin', sysdate(), '', null, '广告列表-导入-按钮');
+insert into sys_menu values('2113', '导入', '2108', '5',  '', '','', 1, 0, 'F', '0', '0', 'sms:advertise:import', '#', 'admin', sysdate(), '', null, '广告列表-导入-按钮');
     
-insert into sys_menu values('2114', '导出', '2108', '6',  '', '','', 1, 0, 'F', '0', '0', 'sms:homeAdvertise:export', '#', 'admin', sysdate(), '', null, '广告列表-导出-按钮');
+insert into sys_menu values('2114', '导出', '2108', '6',  '', '','', 1, 0, 'F', '0', '0', 'sms:advertise:export', '#', 'admin', sysdate(), '', null, '广告列表-导出-按钮');
     

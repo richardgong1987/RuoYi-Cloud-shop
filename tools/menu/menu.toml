@@ -376,7 +376,7 @@ perms = 'export'
 ['营销'.'品牌推荐']
 menuId = 2080
 icon = 'product-brand'
-path = 'homeBrand'
+path = 'brand'
 
 #-----------营销品牌推荐 按钮权限------------
 ['营销'.'品牌推荐'.'按钮权限'.'查询']
@@ -408,7 +408,7 @@ perms = 'export'
 ['营销'.'新品推荐']
 menuId = 2087
 icon = 'sms-new'
-path = 'homeNew'
+path = 'new'
 
 #-----------营销新品推荐 按钮权限------------
 ['营销'.'新品推荐'.'按钮权限'.'查询']
@@ -440,7 +440,7 @@ perms = 'export'
 ['营销'.'人气推荐']
 menuId = 2094
 icon = 'sms-hot'
-path = 'homeHot'
+path = 'hot'
 
 #-----------营销人气推荐 按钮权限------------
 ['营销'.'人气推荐'.'按钮权限'.'查询']
@@ -472,7 +472,7 @@ perms = 'export'
 ['营销'.'专题推荐']
 menuId = 2101
 icon = 'sms-subject'
-path = 'homeSubject'
+path = 'subject'
 
 #-----------营销专题推荐 按钮权限------------
 ['营销'.'专题推荐'.'按钮权限'.'查询']
@@ -504,7 +504,7 @@ perms = 'export'
 ['营销'.'广告列表']
 menuId = 2108
 icon = 'sms-ad'
-path = 'homeAdvertise'
+path = 'advertise'
 
 #-----------营销广告列表 按钮权限------------
 ['营销'.'广告列表'.'按钮权限'.'查询']
