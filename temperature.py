@@ -21,10 +21,11 @@ def is_safe(board, row, col, n):
     return True
 
 
-def solve_n_queens_util(board, col, n):
-    # Base case: If all queens are placed, return True
+def solve_n_queens_util(board, col, n, solutions):
+    # Base case: If all queens are placed, add the board to the solutions list
     if col == n:
-        return True
+        solutions.append([row[:] for row in board])
+        return
 
     # Check if a queen can be placed in the current column
     for i in range(n):
@@ -33,30 +34,30 @@ def solve_n_queens_util(board, col, n):
             board[i][col] = 1
 
             # Recur to place the rest of the queens
-            if solve_n_queens_util(board, col + 1, n):
-                return True
+            solve_n_queens_util(board, col + 1, n, solutions)
 
-            # If placing the queen doesn't lead to a solution, backtrack
+            # Backtrack to try placing the queen elsewhere
             board[i][col] = 0
-
-    # If no queen can be placed in the current column, return False
-    return False
 
 
 def solve_n_queens(n):
     # Create an empty board
     board = [[0 for _ in range(n)] for _ in range(n)]
 
+    # Initialize an empty list to hold the solutions
+    solutions = []
+
     # Call the utility function to solve the problem
-    if solve_n_queens_util(board, 0, n) == False:
-        print("No solution exists")
-        return False
+    solve_n_queens_util(board, 0, n, solutions)
 
-    # Print the solution
-    print("Solution:")
-    for i in range(n):
-        for j in range(n):
-            print(board[i][j], end=" ")
-        print()
+    # Return the list of solutions
+    return solutions
 
-    return True
+
+
+solutions = solve_n_queens(4)
+for i, solution in enumerate(solutions):
+    print(f"Solution {i+1}:")
+    for row in solution:
+        print(row)
+    print()
